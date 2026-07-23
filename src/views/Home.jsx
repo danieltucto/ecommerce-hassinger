@@ -109,7 +109,7 @@ const Home = ({ setCantidad }) => {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start mb-12">
         <section className="text-left lg:col-span-3">
           <div className="flex justify-between items-end mb-4">
-            <h3 className="text-lg font-bold text-gray-800">catalogos</h3>
+            <h3 className="text-lg font-bold text-gray-800">Productos Catalogos</h3>
             {!cargando && <span className="text-xs text-gray-500">{productosFiltrados.length} resultados</span>}
           </div>
 
